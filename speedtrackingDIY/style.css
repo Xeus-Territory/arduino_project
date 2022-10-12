@@ -1,0 +1,81 @@
+body {
+    background-color: rgba(8, 0, 14, 0.956);
+}
+
+.container {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: rgb(250, 64, 98);
+    font-weight: 700;
+    font-size: 40px;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.screen {
+    z-index: 100;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: rgb(251, 136, 174);
+    background-color: rgba(223, 204, 247, 0.163);
+}
+
+.speed-value {
+    color: rgb(217, 177, 184);
+}
+.buttons {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+label, .screen, .sub-title {
+    font-weight: 500;
+    color:rgb(253, 123, 166);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 15px 0px;
+    font-size: 17px;
+    color:rgb(247, 165, 193);
+    width: 95%;
+    background-color: rgba(223, 204, 247, 0.163);
+}
+
+button {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 7px 15px;
+    background-color: rgb(162, 78, 124);
+    border-color: rgb(255, 184, 236);
+    color: rgb(249, 218, 237);
+}
+
+button:hover {
+    background-color: rgb(27, 2, 15);
+    color: rgb(255, 86, 151);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
